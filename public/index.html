@@ -1,17 +1,23 @@
-<!DOCTYLE html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Interactive Map</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map</title>
+    <!-- Add Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" integrity="sha512-M2mqWz+3AYDLkQA2oAytAqR0Q/UjvwzPRqpYxS15t+6vw+M8wIbJl1pFF4/dlsuV5vFlA/xV3qXnuKpdVP8gHA==" crossorigin=""/>
 
-    <body>
-        <div id="map"></div>
+    <!-- Add your custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Map container -->
+    <div id="map"></div>
 
-        <script src="https://unpkg.com/leaflet/dist/leaflet.css"
-        integrity="sha512-5cfXqj+ZLUjLaBO11wP4zupxOO+IwhKaZ1JpL6mT+AdAqWGB6dD8bQSgS0kut5PlCr25FgqRocmStvw+oU3qvw==" crossorigin=""></script>
-        <script src="../src/main.js"></script>
-    </body>
+    <!-- Add Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js" integrity="sha512-5cfXqj+ZLUjLaBO11wP4zupxOO+IwhKaZ1JpL6mT+AdAqWGB6dD8bQSgS0kut5PlCr25FgqRocmStvw+oU3qvw==" crossorigin=""></script>
+    
+    <!-- Your custom JavaScript -->
+    <script src="../src/main.js"></script>
+</body>
 </html>
